@@ -50,7 +50,7 @@ class SumCalculator:
     def print_solution(self):
         print(f"The total sum of the given input file '{self.input_file}' is {self.total_sum}")
 
-# The main function that creates a SumCalculator instance and prints the solution
+# The main function creates a SumCalculator instance and prints the solution
 def main():
     input_file = "03230105_BIA101_CAP3/105.txt"  
     calculator = SumCalculator(input_file)
